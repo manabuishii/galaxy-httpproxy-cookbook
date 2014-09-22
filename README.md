@@ -1,6 +1,8 @@
 galaxy http proxy
 =================
 
-galaxyをapache httpd またはnginxなどの下で動かすためのcookbook
+# galaxyをapache httpd またはnginxなどの下で動かすためのcookbook
+
+
 
 
