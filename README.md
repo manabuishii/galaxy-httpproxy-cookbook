@@ -3,6 +3,17 @@ galaxy http proxy
 
 # galaxyをapache httpd またはnginxなどの下で動かすためのcookbook
 
+### sample
+
+run_listに以下を記述
+
+>    "recipe[galaxy@0.5.1]",
+>    "recipe[apache2]",
+>    "recipe[apache2::mod_proxy]",
+>    "recipe[apache2::mod_proxy_http]",
+>    "recipe[galaxy-httpproxy]"
+
+
 
 ## TODO
 
