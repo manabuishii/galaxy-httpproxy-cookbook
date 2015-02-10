@@ -1,5 +1,5 @@
 template "/etc/httpd/conf-enabled/galaxy.conf" do
-  source "galaxy.conf.erb"
+  source node[:galaxy_http_proxy][:galaxy_conf]
   mode 0644
   owner "root"
   group "root"
