@@ -1,5 +1,5 @@
-name "galaxy-httpproxy-cookbook"
-version "0.2.0"
+name "galaxy-httpproxy"
+version "0.3.0"
 
 depends 'apache2'
 
